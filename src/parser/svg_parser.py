@@ -6,6 +6,7 @@ import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Union
+from urllib.parse import unquote
 
 from .schema import Document, Layer, LayerType
 
@@ -71,7 +72,6 @@ def _parse_group(group: ET.Element) -> Layer:
     """Convert a ``<g>`` element into a :class:`Layer`."""
     raw_id = group.get("id", "")
     # Krita URL-encodes spaces as %20; decode for the human-readable name
-    from urllib.parse import unquote
     name = unquote(raw_id)
 
     transform = group.get("transform", "")
