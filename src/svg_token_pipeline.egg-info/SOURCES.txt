@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/parser/__init__.py
+src/parser/contracts.py
+src/parser/emit.py
+src/parser/ir.py
+src/parser/parse.py
+src/svg_token_pipeline.egg-info/PKG-INFO
+src/svg_token_pipeline.egg-info/SOURCES.txt
+src/svg_token_pipeline.egg-info/dependency_links.txt
+src/svg_token_pipeline.egg-info/top_level.txt
+tests/test_pipeline.py
