@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/krita_svg_parser.egg-info/PKG-INFO
+src/krita_svg_parser.egg-info/SOURCES.txt
+src/krita_svg_parser.egg-info/dependency_links.txt
+src/krita_svg_parser.egg-info/top_level.txt
+src/parser/__init__.py
+src/parser/schema.py
+src/parser/svg_parser.py
+tests/test_schema.py
